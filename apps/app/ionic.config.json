@@ -1,0 +1,7 @@
+{
+  "name": "Sp0tify_App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
