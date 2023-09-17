@@ -1,10 +1,10 @@
 {
-  "name": "sp0tify-server",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pip install -r requirements.txt && uvicorn src.main:sp0tify --reload --port 8000"
+    "dev": "pipenv run uvicorn src.main:sp0tify --reload --port 8000"
   },
   "keywords": [],
   "author": "",
